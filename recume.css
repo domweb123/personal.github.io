@@ -1,0 +1,131 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    float: left;
+    background-color: gray;
+    padding: 10px;
+    
+}
+.img{
+    width: 35%;
+    float: left;
+}
+.img ul{
+    list-style: square;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.img ul li{
+    float: left;
+}
+.img ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: bold;
+}
+.menu1{
+    width: 65%;
+    float: left;
+    
+}
+.menu1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.menu1 ul li{
+   float: left;
+}
+
+.menu1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+.menu1 ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 2500px;
+    float: left;
+    background-color: AntiqueWhite;;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.box1{
+    width: 40%;
+    height: 400px;
+    background-color: gray;
+    margin-left: 460px;
+    float: left;
+    box-shadow: 5px 5px 5px solid black;
+}
+h2{
+    margin-left: 460px;
+}
+h3{
+    margin-top: 80px;
+    color: blue;
+    font-size: 20px;
+    margin-left: 40px;
+}
+p{
+    margin-left: 15px;
+    color: white;
+}
+.p1{
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;  
+    text-align: center;
+}
+.box2{
+    width: 40%;
+    height: 400px;
+    background-color: gray;
+    float: left;
+}
+.Box3{
+    width: 60%;
+    height: 400px;
+    background-color: yellow;
+    float: left;
+}
+.edu{
+    margin-top: 500px;
+}
+p1{
+    color: white;
+    font-size: 17px;
+    margin-left: 35px;  
+}
+.box4{
+    width: 40%;
+    overflow: hidden;
+    background-color: gray;
+    margin-left: 460px;
+    float: left;
+    box-shadow: 5px 5px 5px solid black;
+    margin-top: 40px;
+}
+.footer{
+    width: 100%;
+    background-color: gray;
+    overflow: hidden;
+    text-align: center;
+}

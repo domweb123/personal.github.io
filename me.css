@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    float: left;
+    background-color: gray;
+    padding: 10px;
+    
+}
+.img{
+    width: 35%;
+    float: left;
+}
+.img ul{
+    list-style: square;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.img ul li{
+    float: left;
+}
+.img ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: bold;
+}
+.menu1{
+    width: 65%;
+    float: left;
+    
+}
+.menu1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.menu1 ul li{
+   float: left;
+}
+
+.menu1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+.menu1 ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    background-color: gray;
+}
+.container2{
+  width: 60%;
+  height: 700px;
+  background-color: #e9bcb9;
+  float: right;
+}
+.box{
+    width: 40%;
+    height: 700px;
+    background-color: AntiqueWhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.box1{
+   width: 40%;
+    height: 60%;
+    overflow: hidden;
+    border: 2px solid gray;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: white;
+}
+.box2{
+   width: 100%;
+   height: 100%;
+   background-color: AntiqueWhite;
+   display: flex;
+   justify-content: center;
+}
+img{
+    width: 200px;
+    margin-top: 30px; 
+    margin-left: 50px;
+} 
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+hr{
+    height: 2px;
+    background-color:blue;
+    width: 50px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.box01{
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 70px;  
+  }
+.fa:hover {
+  color: blue;
+  cursor: pointer;
+}
+.fa-facebook {
+    color: black;
+  }
+
+h4{
+    margin-left: 120px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 150px;
+    color: white;
+}
+.btn1{
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        width: 100px;
+        height: 30px ;
+        margin-left: 120px;
+}
+.btn1 a{
+        text-decoration: none;
+        color: white;
+    
+}
+.btn1:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.btn{
+    margin-left: 10px;
+    background-color: white;
+    color: white;
+     border-radius: 20px;
+    width: 100px;
+    height: 30px ;
+}
+.btn a{
+    text-decoration: none;
+    color: green;
+}
+.btn:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+a1{
+    text-decoration: none;
+    color: black;
+}
+a1:hover{
+    cursor: pointer;
+    color: white;
+}
+p1{
+  margin-left: 120px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.footer{
+    width: 100%;
+    background-color: gray;
+    overflow: hidden;
+    text-align: center;
+}
