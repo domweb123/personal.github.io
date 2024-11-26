@@ -187,40 +187,61 @@ p1{
     overflow: hidden;
     text-align: center;
 }
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-        align-items: flex-start;
+@media only screen and (max-width: 600px){
+    .menu ul{
+        display: none;
     }
 
-    .menu .img ul, .menu1 ul {
-        flex-direction: column;
-        width: 100%;
+    h4{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+        
+    .box1{
+        width:100px;
+        height: 240px;
     }
 
-    .menu .img ul li, .menu1 ul li {
-        margin-bottom: 10px;
+    img{
+        width: 80px;
+       margin-left: 15px;
+        
     }
 
-    .container {
-        flex-direction: column;
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
     }
 
-    .btn1, .btn {
-        width: 90%;
-        margin: 10px auto;
+    .box01{
+        width: 110px;
+        height: 30px;
+        
     }
 
-    .box img {
-        width: 120px;
+    .fa{
+        font-size: 30px;
+        margin-left: 15px;
     }
 
-    .container2 h4 {
-        font-size: 24px;
-        text-align: center;
+    .btn1{
+        width: 60px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        font-size: 10px;
+    }
+    
+    .btn{
+        width: 60px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: 10px;
     }
 
-    .container2 p {
-        font-size: 16px;
+    p1{
+        font-size: 15px;
+        margin-left: auto;
     }
 }
