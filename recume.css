@@ -4,13 +4,15 @@ html{
 body{
     margin: 0;
 }
-.menu{
-    width: 100%;
-    float: left;
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: gray;
-    padding: 10px;
-    
-}
+    padding: 10px 20px;
+    width: 1480px;
+} 
+
 .img{
     width: 35%;
     float: left;
@@ -128,4 +130,59 @@ p1{
     background-color: gray;
     overflow: hidden;
     text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .menu{
+        width: 370px;
+    }
+
+    .menu ul li a, .menu1 ul li a{
+        padding: 5px;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .box{
+        width: 100%;
+        overflow: hidden;
+    }
+   .container2{
+    width: 100%;
+   }
+
+   h2{
+    margin-left: 20px;
+   }
+
+   .box1{
+    margin-left: 20px;
+    width: 90%;
+    overflow: hidden;
+   }
+   h3{
+    margin-top: 50px;
+    color: blue;
+    font-size: 15px;
+    margin-left: 20px;
+   }
+   p{
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+   }
+   p1{
+    margin-left: 15px;
+   }
+   .p1{
+    font-size: 14px;
+    margin-top: 20px;
+   }
+   
+   .box4{
+    margin-left: 20px;
+    width: 90%;
+    overflow: hidden;
+   }
+   .container{
+    height: 2700px;
+   }
 }
