@@ -4,16 +4,7 @@ html{
 body{
     margin: 0;
 }
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    float: left;
-    background-color: gray;
-    
-    
-}
+
 .menu .img ul .menu1 ul{
     width: 35%;
     float: left;
@@ -24,7 +15,7 @@ body{
     align-items: center;
     background-color: gray;
     padding: 10px 20px;
-    width: 100%;
+    width: 1480px;
 }
 
 .menu .img ul, .menu1 ul {
@@ -176,10 +167,11 @@ a1:hover{
     cursor: pointer;
     color: white;
 }
-p1{
+.p1{
   margin-left: 120px;
   font-family: Arial, sans-serif;
   color: white;
+  text-align: justify;
 }
 .footer{
     width: 100%;
@@ -187,61 +179,51 @@ p1{
     overflow: hidden;
     text-align: center;
 }
-@media only screen and (max-width: 800px){
-    .menu ul{
-        display: none;
+@media only screen and (max-width: 600px){
+
+   /*Menu bar*/
+    .menu{
+        width: 370px;
     }
 
-    h4{
-        font-size: 15px;
-        margin-left: 30px;
-    }
-        
-    .box1{
-        width:100px;
-        height: 240px;
-    }
-
-    img{
-        width: 80px;
-       margin-left: 15px;
-        
-    }
-
-    h1{
-        font-size: 15px;
-    }
-    p{
-        font-size: 8px;
-    }
-
-    .box01{
-        width: 110px;
-        height: 30px;
-        
-    }
-
-    .fa{
-        font-size: 30px;
-        margin-left: 15px;
-    }
-
-    .btn1{
-        width: 60px;
-        margin-bottom: 20px;
-        margin-left: 30px;
+    .menu ul li a, .menu1 ul li a{
+        padding: 5px;
         font-size: 10px;
+        margin-right: 10px;
     }
-    
-    .btn{
-        width: 60px;
-        margin-bottom: 20px;
-        margin-left: 10px;
-        font-size: 10px;
+    .box{
+        width: 100%;
+        overflow: hidden;
     }
+   .container2{
+    width: 100%;
+   }
+   
+   h4{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+   }
+   .btn1{
+    margin-left: 50px;
+   }
+   .p1{
+    margin-left: 15px;
+    font-size: 16px;
+    text-align: justify;
+    text-align: center;
+   }
 
-    p1{
-        font-size: 15px;
-        margin-left: auto;
-    }
+   .box1{
+    width: 300px;
+   }
+   .box01{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 310px;
+   }
+
+   img{
+    margin-left: 60px;
+   }
 }
