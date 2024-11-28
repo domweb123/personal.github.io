@@ -4,12 +4,13 @@ html{
 body{
     margin: 0;
 }
-.menu{
-    width: 100%;
-    float: left;
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: gray;
-    padding: 10px;
-    
+    padding: 10px 20px;
+    width: 1480px;
 }
 .img{
     width: 35%;
@@ -126,3 +127,54 @@ button:hover{
     overflow: hidden;
     text-align: center;
 }
+@media only screen and (max-width: 600px){
+
+    /*Menu bar*/
+     .menu{
+         width: 370px;
+     }
+ 
+     .menu ul li a, .menu1 ul li a{
+         padding: 5px;
+         font-size: 10px;
+         margin-right: 10px;
+     }
+     .box{
+         width: 100%;
+         overflow: hidden;
+         
+     }
+     .box1{
+        margin-left: 20px;
+        width: 90%;
+        height: 550px;
+        
+     }
+      .textbox{
+        margin-left: 5px;
+        width: 300px;
+      }
+      .vbox{
+        width: 100%;
+        overflow: hidden;
+        background-color: gray;
+      }
+      .vbox1{
+        width: 100%;
+        overflow: hidden;
+      }
+      .textbox input{
+        width: 350px;
+      }
+      .textbox textarea{
+        width: 350px;
+        height: 50px;
+      }
+      .container{
+        height: 800px;
+      }
+      .footer{
+        margin-top: 100px;
+        
+      }
+  }
