@@ -56,8 +56,10 @@ body{
     margin-right: 10px;
 }
 .menu1 ul li a:hover{
-    background-color: white;
+    background-color:  AntiqueWhite;
     color: black;
+    padding: 15px;
+    transition: 0.7s;
 }
 .container{
     width: 100%;
@@ -133,7 +135,7 @@ p1{
 }
 @media only screen and (max-width: 600px){
     .menu{
-        width: 370px;
+        width: 330px;
     }
 
     .menu ul li a, .menu1 ul li a{
@@ -152,7 +154,7 @@ p1{
    h2{
     margin-left: 20px;
    }
-
+    
    .box1{
     margin-left: 20px;
     width: 90%;
