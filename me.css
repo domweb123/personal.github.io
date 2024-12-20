@@ -34,8 +34,10 @@ body{
 }
 
 .menu1 ul li a:hover {
-    background-color: white;
+    background-color: #e9bcb9;
     color: black;
+    padding: 15px;
+    transition: 0.7s;
 }
 
 .container{
@@ -101,8 +103,8 @@ p{
 .box01{
     width: 300px;
     background-color: white;
-    margin-top: 20px;
-
+    margin-top: 10px;
+    float: left;
 }
 .fa {
     padding: 10px;
@@ -115,10 +117,6 @@ p{
   color: blue;
   cursor: pointer;
 }
-.fa-facebook {
-    color: black;
-  }
-
 h4{
     margin-left: 120px;
     font-family: Arial, sans-serif;
@@ -181,9 +179,8 @@ a1:hover{
 }
 @media only screen and (max-width: 600px){
 
-   /*Menu bar*/
     .menu{
-        width: 370px;
+        width: 318px;
     }
 
     .menu ul li a, .menu1 ul li a{
@@ -226,4 +223,10 @@ a1:hover{
    img{
     margin-left: 60px;
    }
+   .menu1 ul li a:hover {
+    background-color: #e9bcb9;
+    color: black;
+    padding: 13px;
+    transition: 0.7s;
+}
 }
